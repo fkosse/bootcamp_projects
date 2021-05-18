@@ -115,3 +115,5 @@ layout = layout([
 
 curdoc().add_root(layout)
 curdoc().title = "Gapminder"
+
+plot.show()
