@@ -38,13 +38,15 @@ lyrics_df = add_new_artist(lyrics_df, 'Queen')
 lyrics_df = add_new_artist(lyrics_df, 'Imagine-Dragons')
 lyrics_df = add_new_artist(lyrics_df, 'Taylor-Swift')
 
+lyrics_df.drop_duplicates(subset ='title', keep = False, inplace = True)
+
 X = lyrics_df.drop('artist', axis=1) #all features minus Class
 y = lyrics_df['artist'] #just the Class columns
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=10, stratify=y)
 X_train.shape, X_test.shape, y_train.shape, y_test.shape
 
-tf = TfidfVectorizer(lowercase=True, stop_words = 'english', token_pattern = '(?u)\\b[a-zA-Z]+\\b', ngram_range = (1,5))
+tf = TfidfVectorizer(lowercase=True, stop_words = 'english', token_pattern = '(?u)\\b[a-zA-Z]+\\b', ngram_range = (1,3))
 vectorizer = tf.fit_transform(X_train['lyrics'])
 X_test_vec = tf.transform(X_test['lyrics'])
 
@@ -59,6 +61,6 @@ rf_y_pred = rf.predict(X_test_vec)
 print(f'The accuracy of the Naive Bayes model is: {round(accuracy_score(y_test, rf_y_pred), 3)}')
 print(f'The accuracy of the Random Forest model is: {round(accuracy_score(y_test, rf_y_pred), 3)}')
 
-pickle.dump(rf, open(curr_dir + '/' + 'mnb_model.sav', 'wb'))
+pickle.dump(mnb, open(curr_dir + '/' + 'mnb_model.sav', 'wb'))
 pickle.dump(rf, open(curr_dir + '/' + 'rf_model.sav', 'wb'))
 pickle.dump(tf, open(curr_dir + '/' + 'tfidf_vectorizer.sav', 'wb'))
