@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Recommendations!</title>
+</head>
+
+<body>
+
+  <h1> Hidden Gems for you:</h1>
+  <ul>
+
+
+    {% for h in hid_movies%}
+    <li>{{ h }}</li>
+    {% endfor %}
+
+    <ul>
+
+  <h1> Top Recommendation by related users:</h1>
+  <ul>
+
+ 
+    <li>{{ u_movies }}</li>
+ 
+
+    <ul>
+
+
+
+  <h2> Here are other popular movies you might like:</h2>
+  <ul>
+
+    {% for m in movies%}
+    <li>{{ m }}</li>
+    {% endfor %}
+
+    <ul>
+      <p>
+        <a href="/">Go back to main page</a>
+      </p>
+
+</body>
+
+</html>
