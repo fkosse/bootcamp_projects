@@ -51,4 +51,4 @@ Installation Guide
 2. Pip install everything from the requirements.txt
 3. Run the web app in your browser with:
 
-streamlit run forex_backtester_app.py
+`streamlit run forex_backtester_app.py`
