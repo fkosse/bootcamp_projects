@@ -14,9 +14,12 @@ Current features at a glance:
 
 - Instruments:
     - EUR/US
-    - AUS/US
-    - S&P 500
     - BTC/US
+    - S&P 500
+    - EUR/AUD
+    - USD/HKD
+  
+  
 - Custom time frame within the last 5 years
 - Strategies:
     - Simple Moving Averages
