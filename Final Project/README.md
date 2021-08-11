@@ -4,7 +4,7 @@ This tool is designed to backtest different trading strategies in order to choos
 
 ![backtester_demo_1](backtester_demo_1.gif)
 
-The tool currently supports a selection of instruments with a granularity of daily candles within a selectable time frame. It shows the total gain or loss of the strategy and compares this to a 'buy and hold' strategy. Both 'buy and hold' as well as the custom strategy's cumulative returns are shown in the graphs.
+The tool currently supports a selection of instruments with a granularity of daily candles within a selectable time frame. It shows the total gain or loss of the strategy and compares this to a 'buy and hold' strategy. Both 'buy and hold' (blue) as well as the custom strategy's cumulative returns (orange) are shown in ineractive graphs.
 
 ![backtester_demo_2](backtester_demo_2.gif)
 
