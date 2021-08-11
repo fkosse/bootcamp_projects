@@ -10,6 +10,8 @@ The tool shows the total gain or loss of the strategy and compares this to a 'bu
 
 The Backtesting scripts are based on the contents of Prof. Alexander Hagemanns scripts in the Algorithmic Trading course.
 
+![backtester_demo_1](backtester_demo_1.gif)
+![backtester_demo_2](backtester_demo_2.gif)
 
 
 Current features at a glance:
