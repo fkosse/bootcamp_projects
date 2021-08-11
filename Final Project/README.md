@@ -1,18 +1,10 @@
 ## Backtesting Platform for Algorithmic Trading with Technical Indicators
 
-This tool is designed to backtest different trading strategies in order to choose the best strategies with the best parameters for the highest profitability. 
-
-The user can choose to automate the strategy and parameter search or conduct tests manually. The data is pulled directly from Oanda via the Python Quants API.
-
-The tool currently supports a selection of instruments with a granularity of daily candles within a selectable time frame.
-
-The tool shows the total gain or loss of the strategy and compares this to a 'buy and hold' strategy. Both 'buy and hold' as well as the custom strategy's cumulative returns are shown in the graphs.
-
-The Backtesting scripts are based on the contents of Prof. Alexander Hagemanns scripts in the Algorithmic Trading course.
-
+This tool is designed to backtest different trading strategies in order to choose the best strategies with the best parameters for the highest profitability. The user can choose to automate the strategy and parameter search or conduct tests manually. The data is pulled directly from Oanda via the Python Quants API.
 ![backtester_demo_1](backtester_demo_1.gif)
+The tool currently supports a selection of instruments with a granularity of daily candles within a selectable time frame. It shows the total gain or loss of the strategy and compares this to a 'buy and hold' strategy. Both 'buy and hold' as well as the custom strategy's cumulative returns are shown in the graphs.
 ![backtester_demo_2](backtester_demo_2.gif)
-
+The Backtesting scripts are based on the contents of Prof. Alexander Hagemanns scripts in the Algorithmic Trading course.
 
 Current features at a glance:
 
