@@ -1,0 +1,5 @@
+streamlit==0.84.1
+tpqoa @ git+git://github.com/yhilpisch/tpqoa@bd43520a2485b2b8d9ac1e0f594ef4a20e5
+pandas
+numpy
+scipy
