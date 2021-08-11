@@ -49,6 +49,7 @@ Installation Guide
 
 1. Clone the repository 
 2. Pip install everything from the requirements.txt
-3. Run the web app in your browser with:
+3. Add an oanda.cfg with your own credentials for the Oanda API
+4. Run the web app in your browser with:
 
 `streamlit run forex_backtester_app.py`
