@@ -16,7 +16,7 @@ Thanks to the simplicity and interactivity of plotly express the plot could be g
 
 `fig.show()`
 
-The only requirement was to organize the data in the right shape by utilizing different data wrangling techniques which can be observed in the jupyter notebook.
+The only requirement was to organize the data in the right shape by utilizing different data wrangling techniques which can be observed in the [jupyter notebook](200_Countries_240_Years.ipynb "go to notebook").
 
 
 
