@@ -6,7 +6,7 @@
 * Comparing the statistical output of different AutoRegression models
 * Testing the remainder for stationarity using the Dickey-Fuller Test
 * Determining the number of lags by employing the Box-Jenkins Methodology
-* Forecasting the next day's temperature
+* Forecasting the next day's temperature with and accuracy of 97.86% 
 
 Comparing the different parts of the model
 ![comparison](comparison.png)

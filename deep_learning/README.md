@@ -1,5 +1,5 @@
 # Deep Learning and Image Recognition 
-Building an Artificial Neural Network to recognize handwritten digits from the [MNIST](http://yann.lecun.com/exdb/mnist/ 'go ot page') dataset.
+Building an Artificial Neural Network to recognize handwritten digits from the [MNIST](http://yann.lecun.com/exdb/mnist/ 'go ot page') dataset with an accuracy of 99.03% on the Test-set.
 
 * building a neural network from scratch
 * creating a virtual environment for my project
@@ -24,7 +24,23 @@ If sorting an unrecognized letter manually costs 10 cent, what will be the impac
 Numbers for reference: the new DHL logistic centre in Bochum is processing up to 50000 parcels per hour. On peak days 11 million per day. Of course, most of these don’t have handwritten digits, but it illustrates the size of the task.
 
 ### Buidling a Convolutional Neural Network
+CNNs are biologically-inspired models inspired by research by D. H. Hubel and T. N. Wiesel. They proposed an explanation for the way in which mammals visually perceive the world around them using a layered architecture of neurons in the brain, and this in turn inspired engineers to attempt to develop similar pattern recognition mechanisms in computer vision.
 
-![architecture](funnel.jpg)
+Thus deep convolutional neural networks (CNN) are designed with the following elements, which were inspired by nature:
 
-image from [everybodywiki](https://en.everybodywiki.com/VGG_Net 'go to page') (CC BY-SA 3.0)
+![CNN](CNN.png)
+
+Illustration of the CNN model achitecture by [mathworks](https://www.mathworks.com/content/mathworks/www/en/discovery/convolutional-neural-network/jcr:content/mainParsys/image_copy.adapt.full.high.jpg/1497876372993.jpg 'go to page')
+
+
+### Evaluating the Model
+
+Plotting the Learning Curve 
+
+![learning_curve](learning_curve.png)
+
+
+Investigating the Model Output
+
+![fail](fail.png)
+
