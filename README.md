@@ -8,7 +8,7 @@ These projects were created during the 12 week data science bootcamp at SPICED A
 
 ## [Deep Learning: Image Recognition](https://github.com/fkosse/bootcamp_projects/tree/main/deep_learning) 
 
-## Company Dashboard with the Northwind Dataset
+## [Company Dashboard with the Northwind Dataset](https://github.com/fkosse/bootcamp_projects/tree/main/dashboard)
 
 ## Visual Data Analysis with Income and Life Expectancy of 200 Countries over 200 Years
 
