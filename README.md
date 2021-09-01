@@ -6,7 +6,7 @@ These projects were created during the 12 week data science bootcamp at SPICED A
 
 ## [Time Series Forecasting with Temperature Data](https://github.com/fkosse/bootcamp_projects/tree/main/time_series_forecasting)
 
-## Deep Learning: Image Recognition 
+## [Deep Learning: Image Recognition](https://github.com/fkosse/bootcamp_projects/tree/main/deep_learning) 
 
 ## Company Dashboard with the Northwind Dataset
 
