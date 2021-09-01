@@ -8,7 +8,7 @@ The tool currently supports a selection of instruments with a granularity of dai
 
 ![backtester_demo_2](backtester_demo_2.gif)
 
-The Backtesting scripts are based on the contents of Prof. Alexander Hagemanns scripts in the Algorithmic Trading course.
+The Backtesting scripts are based on the contents of Prof. Alexander Hagemann's scripts in the Algorithmic Trading course.
 
 Current features at a glance:
 
