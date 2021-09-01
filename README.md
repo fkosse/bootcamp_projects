@@ -10,5 +10,5 @@ These projects were created during the 12 week data science bootcamp at SPICED A
 
 ## [Company Dashboard with the Northwind Dataset](https://github.com/fkosse/bootcamp_projects/tree/main/dashboard)
 
-## Visual Data Analysis with Income and Life Expectancy of 200 Countries over 200 Years
+## [Visual Data Analysis with Income and Life Expectancy of 200 Countries over 200 Years](https://github.com/fkosse/bootcamp_projects/tree/main/visual_data_analysis)
 
