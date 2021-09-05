@@ -1,4 +1,5 @@
 # SPICED Academy Bootcamp Projects
+by Felix Kosse
 
 These projects were created during the 12 week data science bootcamp at [SPICED Academy](https://github.com/spicedacademy) in Berlin 2021.
 
